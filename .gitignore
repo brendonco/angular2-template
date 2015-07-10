@@ -1,0 +1,4 @@
+# Ignore js file Since tsc will autogenerate .ts with .js files #
+# tsc.cmd --watch -m commonjs -t es5 --emitDecoratorMetadata app.ts main.ts #
+*.js
+typings/
