@@ -4,11 +4,11 @@ Setting up an Angular2.0 App using this template.
 Setting up the environment
 
 ```
-$ npm install -g tsd@^0.6.0
-$ tsd install angular2 es6-promise rx rx-lite
+$ sudo npm install -g tsd@^0.6.0
+$ sudo tsd install angular2 es6-promise rx rx-lite
 
-npm install -g typescript@^1.5.0-beta
-tsc.cmd --watch -m commonjs -t es5 --emitDecoratorMetadata app.ts main.ts
+$ sudo npm install -g typescript@^1.5.0-beta
+$ tsc.cmd --watch -m commonjs -t es5 --emitDecoratorMetadata app.ts main.ts
 ```
 
 ## Run TypeScript compiler
